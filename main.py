@@ -49,7 +49,7 @@ if uploaded_file is not None:
     
     st.image(image, caption='Uploaded Image', use_column_width=True)
     st.write("")
-    st.write("Detecting Mango Ripeness expression...")
+    st.write("Detecting Mango Ripeness...")
 
     # Process the image and display the result
     processed_image = process_image(image)
