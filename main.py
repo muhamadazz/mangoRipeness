@@ -37,6 +37,8 @@ def process_image(uploaded_image):
     return image_resized
 
 st.title("Mango Ripeness Detection")
+st.title("AI Final Project")
+st.write("by group 1: Muhamad Fahraz firdaus, Muhammad Fikry Haikal, Adinda Clara")
 st.write("Upload an image to detect face expressions")
 
 uploaded_file = st.file_uploader("Choose an image...", type=["jpg", "jpeg", "png"])
