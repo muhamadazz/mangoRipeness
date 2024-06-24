@@ -36,7 +36,7 @@ def process_image(uploaded_image):
     image_resized = cv2.cvtColor(image_resized, cv2.COLOR_BGR2RGB)
     return image_resized
 
-st.title("Face Expression Recognition")
+st.title("Mango Ripeness Detection")
 st.write("Upload an image to detect face expressions")
 
 uploaded_file = st.file_uploader("Choose an image...", type=["jpg", "jpeg", "png"])
@@ -47,7 +47,7 @@ if uploaded_file is not None:
     
     st.image(image, caption='Uploaded Image', use_column_width=True)
     st.write("")
-    st.write("Detecting face expressions...")
+    st.write("Detecting Mango Ripeness expression...")
 
     # Process the image and display the result
     processed_image = process_image(image)
